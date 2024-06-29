@@ -31,8 +31,8 @@ function Projects() {
             <ProjectCard
               imgPath={nfst}
               isBlog={false}
-              title="Chatify"
-              description="no info"
+              title="NFSt"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/NFSt"
               demoLink="https://nf-st.vercel.app/"
             />
@@ -42,8 +42,8 @@ function Projects() {
             <ProjectCard
               imgPath={shows}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="no info"
+              title="Tv Shows"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/tv-shows"
               demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -53,8 +53,8 @@ function Projects() {
             <ProjectCard
               imgPath={fresh}
               isBlog={false}
-              title="Editor.io"
-              description="no info"
+              title="Hello Fresh"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/hello-fresh"
               demoLink="https://hello-fresh-eta.vercel.app/"              
             />
@@ -64,8 +64,8 @@ function Projects() {
             <ProjectCard
               imgPath={fabrx}
               isBlog={false}
-              title="Plant AI"
-              description="no info"
+              title="Fabrx"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/Fabrx"
               demoLink="https://fabrx.vercel.app/"
             />
@@ -75,8 +75,8 @@ function Projects() {
             <ProjectCard
               imgPath={weather}
               isBlog={false}
-              title="Ai For Social Good"
-              description="no info"
+              title="Weather App"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/weather-app"
               demoLink="https://weather-app-swart-omega-75.vercel.app/" 
             />
@@ -86,8 +86,8 @@ function Projects() {
             <ProjectCard
               imgPath={posituv}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="no info"
+              title="Positivus"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/Positivus"
               demoLink="https://iskanderovv.github.io/Positivus/"   
             />
@@ -96,8 +96,8 @@ function Projects() {
             <ProjectCard
               imgPath={cargo}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="no info"
+              title="Cargo"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/Cargo"
               demoLink="https://cargo-sand.vercel.app//"   
             />
@@ -106,8 +106,8 @@ function Projects() {
             <ProjectCard
               imgPath={juste}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="no info"
+              title="Juste"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/Eyeglasses"
               demoLink="https://iskanderovv.github.io/Eyeglasses/"   
             />
@@ -116,8 +116,8 @@ function Projects() {
             <ProjectCard
               imgPath={hotel}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="no info"
+              title="Hotel"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/hotel"
               demoLink="https://iskanderovv.github.io/hotel/"   
             />
@@ -126,8 +126,8 @@ function Projects() {
             <ProjectCard
               imgPath={food}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="no info"
+              title="Food Network"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/EFood"
               demoLink="https://iskanderovv.github.io/EFood/"   
             />
@@ -136,8 +136,8 @@ function Projects() {
             <ProjectCard
               imgPath={daunku}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="no info"
+              title="Daunku"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/daunku"
               demoLink="https://iskanderovv.github.io/EFood/"   
             />
@@ -146,8 +146,8 @@ function Projects() {
             <ProjectCard
               imgPath={furniro}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="no info"
+              title="Furniro"
+              // description="no info"
               ghLink="https://github.com/iskanderovv/Furniro"
               demoLink="https://iskanderovv.github.io/Furniro/"   
             />

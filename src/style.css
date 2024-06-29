@@ -157,6 +157,8 @@ button:focus {
 .logo {
   height: 2.4em !important;
   width: 10em !important;
+  color: #cd5ff8;
+
 }
 
 .navbar-nav .nav-link {
@@ -608,6 +610,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  height: 100vh;
 }
 
 .resume {
@@ -720,24 +723,26 @@ button:focus {
   }
 }
 
-.fork-btn {
-  font-size: 1.1em !important;
-  padding-top: 10px !important;
+.contact-section {
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+  height: 100vh;
 }
 
-.fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
-  vertical-align: middle !important;
-  text-align: center !important;
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
 }
 
-.fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+.adress-section {
+  background-image: var(--section-background-color) !important;
 }
-.fork-btn-inner::after {
-  display: none !important;
+
+
+.address{
+  margin-top: 160px !important;
 }

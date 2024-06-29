@@ -5,15 +5,14 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logog.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
+import { IoCallOutline } from "react-icons/io5";
+import { CiLocationArrow1 } from "react-icons/ci";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -39,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="">
-          <img src={logo} width='250px' className="img-fluid logo" alt="brand" />
+          <strong className="logo">Ai.Dev</strong>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -91,27 +90,26 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <IoCallOutline style={{ marginBottom: "2px" }} /> Contact
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/address"
+                onClick={() => updateExpanded(false)}
+              >
+                <CiLocationArrow1 style={{ marginBottom: "2px" }} /> Address
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
+           
           </Nav>
         </Navbar.Collapse>
       </Container>
