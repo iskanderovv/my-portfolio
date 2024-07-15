@@ -2,8 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
+import Button from "react-bootstrap/Button";
+import pdf from "../../Assets/../Assets/resume.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
+import { pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function Home() {
   return (
@@ -28,6 +33,15 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+              <Button
+                variant="primary"
+                href={pdf}
+                target="_blank"
+                style={{ margin: 50, position: 'relative', zIndex: 50}}
+              >
+                <AiOutlineDownload />
+                &nbsp;Download CV
+              </Button>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

@@ -133,6 +133,7 @@ button:focus {
   height: 2.4em !important;
   width: 10em !important;
   color: #cd5ff8;
+  font-size: 2rem !important;
 
 }
 
@@ -231,15 +232,6 @@ button:focus {
   padding-top: 80px !important;
 }
 
-.home-section {
-  position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
-}
 
 .home-content {
   padding: 9rem 0 2rem !important;
@@ -329,7 +321,9 @@ button:focus {
 
 .home-social-icons {
   position: relative !important;
-  display: inline-block !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
